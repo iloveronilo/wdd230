@@ -8,6 +8,7 @@ header {
   justify-content: space-around;
   margin: 0 auto;
   max-width: 500px;
+  text-align: center;
 }
 
 footer {
@@ -16,20 +17,25 @@ footer {
   padding: 0.25em;
   font-family: "Yuji Syuku", serif;
   box-shadow: -4px -7px 9px #065685;
+  text-align: center;
 }
 h1 {
   font-family: "Cinzel Decorative", serif, "Times New Roman", Times, serif;
-  font-size: 1em;
+  font-size: 1.25em;
 }
 p {
-  font-size: 0.5em;
+  font-size: 0.75em;
 }
 
 ul {
   font-family: "Cinzel", serif, Tahoma, sans-serif;
-  font-size: 0.5em;
-  padding-top: 0.5em;
+  font-size: 0.75em;
+  padding-top: 0.75em;
   padding-bottom: 0.5em;
+}
+hr {
+  border-color: brown;
+  border-width: 2px;
 }
 #name {
   color: rgb(248, 248, 248);
