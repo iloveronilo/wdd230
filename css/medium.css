@@ -1,0 +1,42 @@
+@media only screen and (min-width: 32.5em) {
+  h1 {
+    font-size: 2.5em;
+  }
+  body {
+    max-width: 1100px;
+    margin: auto;
+  }
+  header {
+    border-radius: 10px;
+    padding: 3em;
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+
+  footer {
+    border-radius: 10px;
+    padding: 1em;
+  }
+
+  ul {
+    font-size: 1.5em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+  }
+  p {
+    font-size: 1.25em;
+  }
+  #reminder {
+    padding: 1em;
+  }
+  #course {
+    padding: 1em;
+  }
+
+  #profilePict {
+    border: 1px solid #06466b;
+    box-shadow: 4px 5px 9px #022133;
+    width: 250px;
+    height: auto;
+  }
+}

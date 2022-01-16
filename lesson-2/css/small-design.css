@@ -1,0 +1,53 @@
+body {
+  display: inline-block;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+header {
+  background-color: skyblue;
+  padding: 0.5em;
+  text-align: center;
+}
+footer {
+  background-color: skyblue;
+  padding: 1em;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 1em;
+  color: brown;
+}
+
+h3 {
+  font-family: "Cinzel", serif;
+  font-size: 0.85rem;
+}
+h4,
+p {
+  font-family: "Yuji Syuku", serif;
+  font-size: 0.75rem;
+}
+section {
+  display: grid;
+  grid-template-rows: 1fr;
+  align-items: center;
+  border: 1px solid brown;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+}
+img {
+  border: 1px solid brown;
+  margin: 0 auto;
+}
+a {
+  align-self: center;
+}
+#lastmod2 {
+  color: brown;
+}
