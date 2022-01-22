@@ -1,0 +1,62 @@
+@media only screen and (min-width: 32.5em) {
+  nav ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); */
+  }
+  body {
+    margin: 0 auto;
+    max-width: 700px;
+  }
+  header {
+    display: grid;
+    grid-template-columns: 1.5rem auto;
+    column-gap: 1.5rem;
+    align-items: center;
+    border-radius: 15px;
+    padding: 1.5rem;
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+  .logo {
+    width: 16vh;
+    border-radius: 10px;
+  }
+  main {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  footer {
+    border-radius: 15px;
+    padding: 1rem;
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  .enjoyImg {
+    width: 30vh;
+    border-radius: 8px;
+  }
+  hr {
+    border-width: 4px;
+  }
+  nav ul li a {
+    padding: 0.7rem;
+    font-size: 1rem;
+  }
+  p,
+  h3 {
+    font-size: 1rem;
+  }
+  ul {
+    font-size: 1rem;
+  }
+  .colors td {
+    height: 2.5em;
+  }
+}

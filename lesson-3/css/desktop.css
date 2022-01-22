@@ -1,0 +1,60 @@
+@media only screen and (min-width: 60em) {
+  nav ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); */
+  }
+  body {
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+  header {
+    display: grid;
+    grid-template-columns: 2rem auto;
+    column-gap: 2rem;
+    border-radius: 20px;
+    padding: 2rem;
+    margin-top: 2rem;
+  }
+  .logo {
+    width: 20vh;
+    border-radius: 10px;
+  }
+  main {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  footer {
+    border-radius: 20px;
+    padding: 1rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .enjoyImg {
+    width: 40vh;
+    border-radius: 10px;
+  }
+  hr {
+    border-width: 5px;
+  }
+  nav ul li a {
+    padding: 0.75rem;
+    font-size: 1.1rem;
+  }
+  p,
+  h3 {
+    font-size: 1.25rem;
+  }
+  ul {
+    font-size: 1.25rem;
+  }
+  .colors td {
+    height: 3em;
+  }
+}

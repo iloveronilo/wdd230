@@ -1,0 +1,126 @@
+body {
+  margin: 0 auto;
+  max-width: 400px;
+}
+header {
+  display: inline-flexbox;
+  align-items: center;
+  background-color: #2a8ac3;
+  border-radius: 20px;
+  padding: 1rem;
+  box-shadow: -4px -7px 9px #065685;
+  text-align: center;
+  margin-top: 1rem;
+}
+.logo {
+  width: 10vh;
+  height: auto;
+  border-radius: 10px;
+}
+main {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+footer {
+  background-color: #2a8ac3;
+  border-radius: 20px;
+  padding: 1rem;
+  font-family: "Yuji Syuku", serif;
+  box-shadow: -4px -7px 9px #065685;
+  text-align: center;
+  color: gold;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+h1 {
+  font-family: "Cinzel Decorative", serif, "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+h2 {
+  font-family: "Cinzel", serif, Tahoma, sans-serif;
+  font-size: 1rem;
+}
+.enjoyImg {
+  width: 20vh;
+  height: auto;
+  border-radius: 10px;
+}
+p,
+h3 {
+  font-family: "Yuji Syuku", serif, Georgia, monospace;
+  font-size: 0.75rem;
+}
+hr {
+  border-color: brown;
+  border-width: 3px;
+}
+nav {
+  background-color: #065685;
+  text-align: center;
+  box-shadow: 0 2px 15px brown;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+nav ul li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 0.75rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+  background: linear-gradient(90deg, transparent, gold, transparent) top /
+    var(--d, 0) 10px no-repeat;
+  transition: 0.5s;
+}
+nav a:hover {
+  --d: 75%;
+}
+#active {
+  color: gold;
+}
+ul {
+  font-size: 0.75rem;
+  font-family: "Yuji Syuku", serif, Georgia, monospace;
+}
+
+/* table */
+:root {
+  --primary-color: white;
+  --secondary-color: #2a8ac3;
+  --accent1-color: gold;
+  --accent2-color: #065685;
+  --accent3-color: brown;
+}
+.colors {
+  width: 100%;
+  min-width: 350px auto;
+  margin: 0 auto;
+  text-align: center;
+}
+.colors th {
+  background-color: #999;
+}
+.colors td {
+  width: 20%;
+  height: 2em;
+}
+.primary {
+  background-color: var(--primary-color);
+}
+.secondary {
+  background-color: var(--secondary-color);
+}
+.accent1 {
+  background-color: var(--accent1-color);
+}
+.accent2 {
+  background-color: var(--accent2-color);
+}
+.accent3 {
+  background-color: var(--accent3-color);
+}
