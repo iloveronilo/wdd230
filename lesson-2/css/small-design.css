@@ -1,5 +1,7 @@
 body {
-  display: inline-block;
+  /* display: inline-block; */
+  margin: 0 auto;
+  max-width: 400px;
 }
 main {
   display: grid;
@@ -9,11 +11,19 @@ header {
   background-color: skyblue;
   padding: 0.5em;
   text-align: center;
+  border-radius: 20px;
+  box-shadow: 4px 7px 9px #065685;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 footer {
   background-color: skyblue;
   padding: 1em;
   text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  box-shadow: -4px -7px 9px #065685;
+  border-radius: 20px;
 }
 
 h1 {
@@ -43,6 +53,8 @@ section {
 }
 img {
   border: 1px solid brown;
+  width: 28vh;
+  height: auto;
   margin: 0 auto;
 }
 a {
