@@ -1,6 +1,6 @@
 body {
   margin: 0 auto;
-  max-width: 400px;
+  max-width: 380px;
 }
 header {
   display: inline-flexbox;
@@ -36,6 +36,7 @@ h1 {
   font-family: "Cinzel Decorative", serif, "Times New Roman", Times, serif;
   font-size: 1.5rem;
   text-align: center;
+  text-shadow: 4px 5px 9px white;
 }
 h2 {
   font-family: "Cinzel", serif, Tahoma, sans-serif;
@@ -46,10 +47,23 @@ h2 {
   height: auto;
   border-radius: 10px;
 }
+#targetPict {
+  width: 15vh;
+  height: auto;
+  border-radius: 10px;
+}
+.camaya {
+  width: 30vh;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 p,
 h3 {
   font-family: "Yuji Syuku", serif, Georgia, monospace;
   font-size: 0.75rem;
+  text-align: justify;
 }
 hr {
   border-color: brown;
@@ -86,6 +100,7 @@ nav a:hover {
 ul {
   font-size: 0.75rem;
   font-family: "Yuji Syuku", serif, Georgia, monospace;
+  text-align: justify;
 }
 
 /* table */

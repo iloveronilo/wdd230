@@ -5,7 +5,7 @@
     /* grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); */
   }
   body {
-    max-width: 700px;
+    max-width: 650px;
   }
   header {
     display: grid;
@@ -40,6 +40,13 @@
   .enjoyImg {
     width: 30vh;
     border-radius: 8px;
+  }
+  #targetPict {
+    width: 20vh;
+    border-radius: 10px;
+  }
+  .camaya {
+    width: 60vh;
   }
   hr {
     border-width: 4px;
