@@ -27,10 +27,10 @@ footer {
   padding: 1rem;
   font-family: "Yuji Syuku", serif;
   box-shadow: -4px -7px 9px #065685;
-  text-align: center;
   color: gold;
   font-size: 1.5rem;
   margin-bottom: 2rem;
+  text-align: center;
 }
 h1 {
   font-family: "Cinzel Decorative", serif, "Times New Roman", Times, serif;
@@ -138,4 +138,11 @@ ul {
 }
 .accent3 {
   background-color: var(--accent3-color);
+}
+#copyright {
+  text-align: center;
+}
+
+#lastmod {
+  text-align: center;
 }
