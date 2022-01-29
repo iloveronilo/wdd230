@@ -1,0 +1,60 @@
+/* 64em is also 1028px when basefont is 16px*/
+@media only screen and (min-width: 64rem) {
+  nav ul#primaryNav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  nav ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  date {
+    font-size: 1rem;
+  }
+  nav button {
+    display: none;
+  }
+  body {
+    max-width: 1100px;
+  }
+  #add,
+  #botTitle,
+  #copyright,
+  #lastmod,
+  contact {
+    font-size: 0.9rem;
+  }
+
+  nav ul li a {
+    border: none;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+  }
+  header {
+    padding: 2rem;
+  }
+  footer {
+    border-radius: 20px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+  h1 {
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  ul {
+    font-size: 1.25rem;
+  }
+  .logo {
+    width: 15vh;
+  }
+  main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
