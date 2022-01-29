@@ -5,7 +5,7 @@
     /* grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); */
   }
   body {
-    max-width: 650px;
+    max-width: 600px;
   }
   header {
     display: grid;
@@ -19,7 +19,6 @@
   }
   .logo {
     width: 16vh;
-    border-radius: 10px;
   }
   main {
     padding-top: 1.5rem;
@@ -32,21 +31,22 @@
     margin-bottom: 1.5rem;
   }
   h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .enjoyImg {
     width: 30vh;
     border-radius: 8px;
   }
-  #targetPict {
+  .targetPict {
     width: 20vh;
-    border-radius: 10px;
+    border-radius: 7px;
   }
   .camaya {
-    width: 60vh;
+    width: 45vh;
+    padding-top: 1.2rem;
   }
   hr {
     border-width: 4px;

@@ -47,17 +47,21 @@ h2 {
   height: auto;
   border-radius: 10px;
 }
-#targetPict {
+.targetPict {
   width: 15vh;
   height: auto;
-  border-radius: 10px;
+  float: left;
+  margin-right: 1rem;
+  border-radius: 5px;
 }
 .camaya {
+  padding-top: 1rem;
   width: 30vh;
   height: auto;
   display: block;
   margin-left: auto;
-  margin-right: auto;
+  float: left;
+  margin-right: 1rem;
 }
 p,
 h3 {
@@ -84,7 +88,7 @@ nav ul li a {
   display: block;
   color: #fff;
   text-align: center;
-  padding: 0.75rem;
+  padding: 0.75rem 2vw;
   text-decoration: none;
   font-size: 0.9rem;
   background: linear-gradient(90deg, transparent, gold, transparent) top /
@@ -143,7 +147,6 @@ ul {
   text-align: center;
   color: gold;
 }
-
 #lastmod {
   text-align: center;
 }

@@ -17,7 +17,6 @@
   }
   .logo {
     width: 20vh;
-    border-radius: 10px;
   }
   main {
     padding-top: 2rem;
@@ -40,12 +39,13 @@
     width: 40vh;
     border-radius: 10px;
   }
-  #targetPict {
+  .targetPict {
     width: 30vh;
     border-radius: 10px;
   }
   .camaya {
     width: 100vh;
+    padding-top: 1.5rem;
   }
   hr {
     border-width: 5px;
