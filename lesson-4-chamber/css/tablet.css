@@ -51,7 +51,24 @@
     width: 12vh;
   }
   main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  .sectHero {
+    grid-column: 1/3;
+  }
+  .sectNews {
+    grid-column: 1/3;
+  }
+  .sectSpot {
+    grid-column: 1/3;
+  }
+  .sectJoin {
+    grid-column: 1/3;
+  }
+  .sectEvent {
+    grid-column: 1/2;
+  }
+  .sectWeather {
+    grid-column: 2/3;
   }
 }

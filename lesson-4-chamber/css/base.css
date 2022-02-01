@@ -159,51 +159,47 @@ ul {
   font-family: "Yuji Syuku", serif, Georgia, monospace;
   text-align: justify;
 }
-main {
-  display: grid;
-  gap: 0.4rem;
-  grid-template-columns: 1fr;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
 .logo {
   width: 8vh;
   height: auto;
   border-radius: 10px;
+  box-shadow: 0 0 10px;
+}
+main {
+  display: grid;
+  gap: 0.4rem;
+  border: 1px solid gold;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .sectHero {
-  border: 1px solid brown;
+  border: 1px solid gold;
   background-color: #ddd;
-  padding: 2rem;
   text-align: center;
 }
 .sectNews {
-  border: 1px solid brown;
+  border: 1px solid gold;
   background-color: #ddd;
-  padding: 2rem;
   text-align: center;
 }
 .sectSpot {
-  border: 1px solid brown;
+  border: 1px solid gold;
   background-color: #ddd;
-  padding: 2rem;
   text-align: center;
 }
 .sectJoin {
-  border: 1px solid brown;
+  border: 1px solid gold;
   background-color: #ddd;
-  padding: 2rem;
   text-align: center;
 }
 .sectEvent {
-  border: 1px solid brown;
+  border: 1px solid gold;
   background-color: #ddd;
-  padding: 2rem;
   text-align: center;
 }
 .sectWeather {
-  border: 1px solid brown;
+  border: 1px solid gold;
   background-color: #ddd;
-  padding: 2rem;
   text-align: center;
 }
