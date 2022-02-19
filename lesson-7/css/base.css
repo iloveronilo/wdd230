@@ -1,0 +1,269 @@
+body {
+  margin: 0 auto;
+  max-width: 380px;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2a8ac3;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 0.7rem;
+  box-shadow: 0px -7px 9px #065685;
+  text-align: center;
+  margin-top: 1rem;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.social {
+  display: flex;
+  align-items: center;
+}
+.fb {
+  width: 4vh;
+  height: auto;
+  padding: 0.3rem;
+}
+.insta {
+  width: 3.5vh;
+  height: auto;
+  padding: 0.3rem;
+}
+.insta:hover,
+.fb:hover {
+  border-radius: 7px;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 5px 9px gold;
+}
+date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #065685;
+  padding: 0.5rem;
+  color: #fff;
+  font-family: "Yuji Syuku", serif, Georgia, monospace;
+  font-style: none;
+  font-size: 0.6rem;
+}
+#botTitle {
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 1rem;
+}
+footer {
+  background-color: #2a8ac3;
+  border-radius: 20px;
+  padding: 1rem;
+  font-family: "Yuji Syuku", serif;
+  box-shadow: 0px -7px 9px #065685;
+  color: #fff;
+  font-size: 0.6rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+#add {
+  text-align: center;
+  font-style: italic;
+}
+.botInfo {
+  display: inline-block;
+  color: gold;
+}
+#copyright,
+#lastmod {
+  text-align: center;
+}
+
+nav button {
+  margin: 0.5rem 2vw;
+  background: transparent;
+  border: none;
+  font-size: 1rem;
+  color: gold;
+}
+nav button:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  font-size: 1.3rem;
+  box-shadow: 4px 5px 9px white;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+nav ul li a {
+  display: block;
+  padding: 0.5rem 2vw;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-size: 0.8rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  background: linear-gradient(90deg, transparent, gold, transparent) top /
+    var(--d, 0) 10px no-repeat;
+  transition: 0.5s;
+}
+nav a:hover {
+  --d: 75%;
+}
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+nav ul {
+  display: none;
+}
+
+nav ul.open {
+  display: block;
+}
+#navButton span:nth-child(1) {
+  display: block;
+}
+#navButton span:nth-child(2) {
+  display: none;
+}
+#navButton.open span:nth-child(1) {
+  display: none;
+}
+#navButton.open span:nth-child(2) {
+  display: block;
+}
+ul {
+  font-size: 0.75rem;
+  font-family: "Yuji Syuku", serif, Georgia, monospace;
+  text-align: justify;
+}
+.logo {
+  width: 8vh;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px;
+}
+main {
+  display: grid;
+  gap: 0.4rem;
+  border: 1px solid gold;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.sectHero {
+  border: 1px solid gold;
+  background-color: #ddd;
+  text-align: center;
+  padding: 1rem;
+}
+.sectHero figure.myPhoto {
+  width: 80%;
+  margin: 10px auto;
+  margin-bottom: 2rem;
+}
+.sectHero figure.myPhoto img {
+  width: 100%;
+}
+figcaption {
+  font-family: "Cinzel", serif, Tahoma, sans-serif;
+  font-size: 0.6rem;
+}
+.sectNews {
+  border: 1px solid gold;
+  background-color: #ddd;
+  padding: 1rem;
+}
+.sectSpot {
+  border: 1px solid gold;
+  background-color: #ddd;
+  padding: 1rem;
+}
+.sectJoin {
+  border: 1px solid gold;
+  background-color: #ddd;
+  padding: 1rem;
+}
+#join {
+  padding: 1rem;
+  margin: 0.5rem;
+  background-color: gold;
+  text-align: center;
+  border: 2px solid #065685;
+  border-radius: 10px;
+  box-shadow: 0 0 8px #2a8ac3;
+  font-family: "Cinzel", serif, Tahoma, sans-serif;
+}
+#join:hover {
+  background-color: #2a8ac3;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.sectEvent {
+  border: 1px solid gold;
+  background-color: #ddd;
+  padding: 1rem;
+}
+.sectWeather {
+  border: 1px solid gold;
+  background-color: #ddd;
+  padding: 1rem;
+}
+
+#weatherName {
+  text-align: center;
+  text-shadow: 0 0 8px #2a8ac3;
+  color: #065685;
+  padding: 1rem;
+  font-family: "Cinzel", serif, Tahoma, sans-serif;
+}
+.temperature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#tempName {
+  text-align: center;
+}
+h1 {
+  font-family: "Cinzel Decorative", serif, "Times New Roman", Times, serif;
+  font-size: 1rem;
+  text-align: center;
+  text-shadow: 4px 5px 9px white;
+  margin: 0 2vw;
+}
+h2 {
+  font-family: "Cinzel", serif, Tahoma, sans-serif;
+  font-size: 1rem;
+}
+p,
+h3 {
+  font-family: "Yuji Syuku", serif, Georgia, monospace;
+  font-size: 0.6rem;
+  text-align: justify;
+  margin: 0 2vw;
+}
+/* HOME BUTTON */
+#homeLink {
+  text-decoration: none;
+  color: black;
+  font-family: "Cinzel", serif, Tahoma, sans-serif;
+  font-weight: bold;
+}
+#home {
+  background-color: #ddd;
+  margin: 1rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border-color: gold;
+}
+#home:hover {
+  background-color: #065685;
+}
+#homeLink:hover {
+  color: white;
+}
