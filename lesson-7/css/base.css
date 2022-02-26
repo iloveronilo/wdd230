@@ -2,6 +2,7 @@ body {
   margin: 0 auto;
   max-width: 380px;
 }
+/* HEADER */
 header {
   display: flex;
   align-items: center;
@@ -40,7 +41,7 @@ header {
   background-color: rgba(0, 0, 0, 0.5);
   box-shadow: 4px 5px 9px gold;
 }
-date {
+#date {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,9 +49,10 @@ date {
   padding: 0.5rem;
   color: #fff;
   font-family: "Yuji Syuku", serif, Georgia, monospace;
-  font-style: none;
   font-size: 0.6rem;
 }
+
+/* FOOTER */
 #botTitle {
   padding: 0.5rem;
   text-align: center;
@@ -71,6 +73,10 @@ footer {
   text-align: center;
   font-style: italic;
 }
+#contact {
+  font-size: 1rem;
+  text-align: center;
+}
 .botInfo {
   display: inline-block;
   color: gold;
@@ -80,6 +86,7 @@ footer {
   text-align: center;
 }
 
+/* NAVIGATION */
 nav button {
   margin: 0.5rem 2vw;
   background: transparent;
@@ -120,7 +127,6 @@ nav ul li a:hover {
 nav ul {
   display: none;
 }
-
 nav ul.open {
   display: block;
 }
@@ -147,11 +153,13 @@ ul {
   border-radius: 10px;
   box-shadow: 0 0 10px;
 }
+
+/* MAIN CONTENTS */
 main {
   display: grid;
   gap: 0.4rem;
   border: 1px solid gold;
-  padding: 1rem;
+  padding: 0.5rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -213,7 +221,6 @@ figcaption {
   background-color: #ddd;
   padding: 1rem;
 }
-
 #weatherName {
   text-align: center;
   text-shadow: 0 0 8px #2a8ac3;
@@ -229,6 +236,8 @@ figcaption {
 #tempName {
   text-align: center;
 }
+
+/* FONT */
 h1 {
   font-family: "Cinzel Decorative", serif, "Times New Roman", Times, serif;
   font-size: 1rem;
@@ -247,23 +256,54 @@ h3 {
   text-align: justify;
   margin: 0 2vw;
 }
+
 /* HOME BUTTON */
 #homeLink {
   text-decoration: none;
-  color: black;
+  color: brown;
   font-family: "Cinzel", serif, Tahoma, sans-serif;
   font-weight: bold;
-}
-#home {
-  background-color: #ddd;
-  margin: 1rem;
-  padding: 0.5rem;
-  border-radius: 10px;
-  border-color: gold;
 }
 #home:hover {
   background-color: #065685;
 }
 #homeLink:hover {
-  color: white;
+  color: gold;
+}
+
+/* LAZY LOADING IMAGES */
+.main_discover {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.main_discover h1 {
+  padding: 2rem;
+  background-color: #ddd;
+}
+.main_discover picture img[data-src] {
+  filter: blur(0.2em);
+}
+.main_discover picture img {
+  margin-top: 1rem;
+  margin-bottom: 0.75rem;
+  width: 100%;
+  filter: blur(0em);
+  transition: filter 0.5s;
+  border: 1px solid #ddd;
+}
+.main_discover h3,
+.main_discover p {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.visit {
+  margin-bottom: 1.5rem;
+  box-sizing: border-box;
+  background-color: gold;
+  padding: 1.5rem;
+}
+.visit p {
+  font-weight: bold;
 }

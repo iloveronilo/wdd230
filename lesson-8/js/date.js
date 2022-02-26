@@ -1,5 +1,5 @@
 // select the elements to manipulate (output to)
-const datefield = document.querySelector("date");
+const datefield = document.getElementById("date");
 
 
 // derive the current date using a date object

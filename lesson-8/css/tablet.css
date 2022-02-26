@@ -7,7 +7,7 @@
     padding: 0.7rem;
     font-size: 1rem;
   }
-  date {
+  #date {
     font-size: 0.8rem;
     padding: 1rem;
   }
@@ -74,5 +74,16 @@
   }
   .sectWeather {
     grid-column: 2/3;
+  }
+  /* LAZY LOADING IMAGES */
+  .main_discover h1 {
+    padding: 2rem;
+  }
+  .main_discover picture img {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  .main_discover picture img:hover {
+    box-shadow: 0 0 50px #333;
   }
 }

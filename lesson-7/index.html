@@ -23,13 +23,11 @@
 
   <body>
     <!-- HEADER HERE -->
-    <button id="home">
-      <a id="homeLink" href="/wdd230/index.html">Home</a>
-    </button>
+    <a id="homeLink" href="/wdd230/index.html">Home</a>
     <header>
       <img class="logo" src="images/enjoy1.webp" alt="Enjoy-logo" />
       <section class="heading">
-        <h1>Enjoy Mariveles</h1>
+        <h2>Enjoy Mariveles</h2>
         <h2>Chamber of Commerce</h2>
       </section>
       <div class="social">
@@ -40,29 +38,34 @@
           ><img class="insta" src="images/insta2.png" alt="insta"
         /></a>
       </div>
-      <span>
-        <nav>
-          <button id="navButton"><span>&#9776;</span><span>x</span></button>
-          <ul id="primaryNav">
-            <li><a href="#">Discover</a></li>
-            <li><a href="#">Directory</a></li>
-            <li><a href="#">Join</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-      </span>
+      <nav>
+        <button id="navButton"><span>&#9776;</span><span>x</span></button>
+        <ul id="primaryNav">
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="#">Directory</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <!-- NAVIGATION HERE -->
-    <date> </date>
+    <div id="date"></div>
     <!-- CONTENT HERE -->
     <main>
       <div class="sectHero">
         <figure class="myPhoto">
-          <img
-            src="images/wdd230-org.jpg"
-            alt="latest-news"
-            srcset="images/wdd230-org3.jpg 1px, images/wdd230-org2.jpg 2px, images/wdd230-org1.jpg 3px"
-          />
+          <picture>
+            <source
+              srcset="images/wdd230-org1.jpg"
+              media="(min-width: 1024px)"
+            />
+            <source
+              srcset="images/wdd230-org2.jpg"
+              media="(min-width: 721px)"
+            />
+            <img src="images/wdd230-org3.jpg" alt="latest-news" />
+          </picture>
+
           <figcaption>The latest news</figcaption>
         </figure>
 
@@ -135,47 +138,48 @@
         </p>
       </div>
 
-      <div class="sectWeather">
-        <h3 id="weatherName">Weather</h3>
-        <section class="temperature">
+      <section class="sectWeather">
+        <h2 id="weatherName">Weather</h2>
+        <div class="temperature">
           <img src="images/sunny_cloudy.png" alt="" />
-          <h1 id="tempDegree"></h1>
-        </section>
-        <h4 id="tempName"></h4>
+          <p id="tempDegree"></p>
+        </div>
+        <p id="tempName"></p>
         <hr />
-        <section class="windChill">
-          <h2 id="windSpeed"></h2>
-          <h2 id="windChill"></h2>
-        </section>
-      </div>
+        <div class="windChill">
+          <p id="windSpeed"></p>
+          <p id="windChill"></p>
+        </div>
+      </section>
     </main>
 
-    <!-- FOOTER HERE -->
+    <!-- FOOTER AREA -->
     <footer>
-      <section class="botChamber">
-        <div>
-          <p id="botTitle">Enjoy Mariveles | Chamber of Commerce</p>
+      <div class="botChamber">
+        <section>
+          <h2 id="botTitle">Enjoy Mariveles | Chamber of Commerce</h2>
           <p id="add">
             Address, 2/F Office Of The Municipal Mayor, Municipal Hall,
             Zalavarria St. Brgy. Poblacion
           </p>
-        </div>
+        </section>
         <br />
-        <contact> Mariveles, Bataan, Contact Nos. Tel: 935-047-1757 </contact>
-      </section>
+        <p id="contact">Mariveles, Bataan, Contact Nos. Tel: 935-047-1757</p>
+      </div>
       <br />
       <hr />
       <br />
-      <info class="botInfo">
+      <div class="botInfo">
         <p id="copyright">
           &copy; 2022 &#9925;| Ronilo O. Gulay &#9925;| WDD230 | Philippines
         </p>
         <p id="lastmod"></p>
-      </info>
+      </div>
     </footer>
+    <script defer src="js/script.js"></script>
+    <script defer src="js/date.js"></script>
+    <script defer src="js/trans.js"></script>
+    <script defer src="js/weather.js"></script>
+    <script defer src="lazyload/lazyload.js"></script>
   </body>
-  <script defer src="js/script.js"></script>
-  <script defer src="js/date.js"></script>
-  <script defer src="js/trans.js"></script>
-  <script src="js/weather.js"></script>
 </html>
