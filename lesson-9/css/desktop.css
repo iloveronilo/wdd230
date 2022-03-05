@@ -86,4 +86,14 @@
   form label.sbs {
     padding: 0.4rem 0;
   }
+  /* DIRECTORY PAGE */
+  .directroy .datas {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .datas img,
+  .datas h2,
+  .datas h3,
+  .datas p {
+    display: flex;
+  }
 }

@@ -403,3 +403,26 @@ form label.top input:required:valid {
   display: table;
   clear: both;
 }
+
+/* DIRECTORY PAGE */
+.directory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.datas {
+  margin: 10px;
+  text-align: center;
+}
+.datas img {
+  border-radius: 10px;
+  margin-top: 1.5rem;
+}
+.datas img:hover {
+  box-shadow: 0 0 50px #333;
+}
+.datas h2,
+.datas h3,
+.datas p {
+  text-align: center;
+}

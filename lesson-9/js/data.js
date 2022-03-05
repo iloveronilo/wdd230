@@ -29,7 +29,7 @@ function displayCompanies(company) {
     comp_name.textContent = `${company.name}`;
     address.textContent = `${company.address}`;
     phone.textContent = `${company.phone}`;
-    web.textContent = `${company.website}`;
+    web.innerHTML = `<a href="${company.website}">${company.website}</a>`;
 
     comp_section.appendChild(comp_img);
     comp_section.appendChild(address);

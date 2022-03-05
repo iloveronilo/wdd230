@@ -2,21 +2,21 @@
     "companies": [
         {
             "name": "Bataan Government",
-            "address": "Capitol Compound San Jose Balanga City Bataan Philippines 2100",
+            "address": "San Jose Balanga City Bataan Philippines",
             "phone": "(047) 237 3488",
             "website": "https://www.bataan.gov.ph/",
             "imageUrl": "https://iloveronilo.github.io/wdd230/lesson-9/images/imageUrl/bat.png" 
         },
         {
             "name": "Camaya Beach Resort",
-            "address": "Mariveles, Bataan",
+            "address": "Camaya Coast Mariveles, Bataan Philippines",
             "phone": " (+63) 917 520 6192 / (+63) 917 543 0560",
             "website": "https://www.camayacoast.com/",
             "imageUrl": "https://iloveronilo.github.io/wdd230/lesson-9/images/imageUrl/cam.png"
         },
         {
             "name": "Corregidor-Island",
-            "address": "corregidor island",
+            "address": "Corregidor island",
             "phone": "(+63) 977 643 4819",
             "website": "https://corregidorisland.com.ph/",
             "imageUrl": "https://iloveronilo.github.io/wdd230/lesson-9/images/imageUrl/corre.png"
@@ -46,7 +46,7 @@
             "name": "Minenebea Mitsumi",
             "address": "Afab Mariveles, Bataan Philippines",
             "phone": " (047) 935 4011~6",
-            "website": "https://www.minebeamitsumi.com/english/corp/company/factories/philippines/1200048_7932.html",
+            "website": "https://www.minebeamitsumi.com/english",
             "imageUrl": "https://iloveronilo.github.io/wdd230/lesson-9/images/imageUrl/minebea.png"
         },
         {
