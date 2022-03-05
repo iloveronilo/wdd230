@@ -1,7 +1,7 @@
 /* 35rem is also 560px when basefont is 16px */
 @media only screen and (min-width: 35rem) {
   body {
-    max-width: 600px;
+    min-width: 700px;
   }
   nav ul li a {
     padding: 0.7rem;
@@ -51,7 +51,7 @@
   .logo {
     width: 12vh;
   }
-  main {
+  .mainPage {
     grid-template-columns: 1fr 1fr;
   }
   .sectHero {
@@ -87,7 +87,15 @@
     box-shadow: 0 0 50px #333;
   }
   /* DIRECTORY PAGE */
-  .directory {
+  .datas {
     grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+    justify-items: center;
+  }
+  .datas h2,
+  .datas h3,
+  .datas p {
+    font-size: 0.85rem;
   }
 }

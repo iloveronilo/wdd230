@@ -156,12 +156,15 @@ ul {
 
 /* MAIN CONTENTS */
 main {
-  display: grid;
-  gap: 0.4rem;
   border: 1px solid gold;
   padding: 0.5rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.mainPage {
+  display: grid;
+  gap: 0.4rem;
 }
 .sectHero {
   border: 1px solid gold;
@@ -242,7 +245,7 @@ h1 {
   font-family: "Cinzel Decorative", serif, "Times New Roman", Times, serif;
   font-size: 1rem;
   text-align: center;
-  text-shadow: 4px 5px 9px white;
+  text-shadow: 2px 2px 5px #2a8ac3;
   margin: 0 2vw;
 }
 h2 {
@@ -279,7 +282,8 @@ h3 {
 }
 .main_discover h1 {
   padding: 2rem;
-  background-color: #ddd;
+  background-color: #065685;
+  color: white;
 }
 .main_discover picture img[data-src] {
   filter: blur(0.2em);
@@ -339,7 +343,8 @@ hr {
   margin-bottom: 1rem;
 }
 .joinContent h1 {
-  background-color: #ddd;
+  background-color: #065685;
+  color: white;
   padding: 2rem;
 }
 form fieldset {
@@ -405,24 +410,31 @@ form label.top input:required:valid {
 }
 
 /* DIRECTORY PAGE */
-.directory {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .datas {
+  display: grid;
+  grid-template-columns: 1fr;
   margin: 10px;
   text-align: center;
-}
-.datas img {
-  border-radius: 10px;
-  margin-top: 1.5rem;
-}
-.datas img:hover {
-  box-shadow: 0 0 50px #333;
 }
 .datas h2,
 .datas h3,
 .datas p {
+  margin: auto;
   text-align: center;
+}
+a {
+  text-decoration: none;
+}
+.datas img {
+  border-radius: 10px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.datas img:hover {
+  box-shadow: 0 0 50px #333;
+}
+.directory h1 {
+  padding: 2rem;
+  background-color: #065685;
+  color: white;
 }

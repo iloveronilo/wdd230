@@ -15,7 +15,7 @@
     display: none;
   }
   body {
-    max-width: 1100px;
+    min-width: 1200px;
   }
   #add,
   #botTitle,
@@ -50,7 +50,7 @@
   .logo {
     width: 15vh;
   }
-  main {
+  .mainPage {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
   }
@@ -87,13 +87,15 @@
     padding: 0.4rem 0;
   }
   /* DIRECTORY PAGE */
-  /* .directroy {
+  .directory {
+    border-style: none;
+  }
+  .datas {
     grid-template-columns: 1fr 1fr 1fr;
-  } */
-  .datas img,
+  }
   .datas h2,
   .datas h3,
   .datas p {
-    display: flex;
+    font-size: 1rem;
   }
 }
