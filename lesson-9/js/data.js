@@ -36,5 +36,5 @@ function displayCompanies(company) {
     comp_section.appendChild(phone);
     comp_section.appendChild(web);
 
-    cards.appendChild(card);
+    datas.appendChild(comp_section);
 }

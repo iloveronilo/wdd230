@@ -5,35 +5,35 @@
             "address": "Capitol Compound San Jose Balanga City Bataan Philippines 2100",
             "phone": "(047) 237 3488",
             "website": "https://www.bataan.gov.ph/",
-            "imageUrl": "https://www.bataan.gov.ph/wp-content/uploads/2021/09/cropped-bataan-seal-icon-300x300.png" 
+            "imageUrl": "https://iloveronilo.github.io/wdd230/lesson-9/images/imageUrl/bat.png" 
         },
         {
             "name": "Camaya Beach Resort",
             "address": "Mariveles, Bataan",
             "phone": " (+63) 917 520 6192 / (+63) 917 543 0560",
             "website": "https://www.camayacoast.com/",
-            "imageUrl": "https://www.camayacoast.com/app/img/logo-hi-res.png"
+            "imageUrl": "https://iloveronilo.github.io/wdd230/lesson-9/images/imageUrl/cam.png"
         },
         {
             "name": "Corregidor-Island",
             "address": "corregidor island",
             "phone": "(+63) 977 643 4819",
             "website": "https://corregidorisland.com.ph/",
-            "imageUrl": "https://corregidorisland.com.ph/wp-content/themes/corregidor/img/corregidor-logo.png"
+            "imageUrl": "https://iloveronilo.github.io/wdd230/lesson-9/images/imageUrl/corre.png"
         },
         {
             "name": "Sinagtala",
             "address": "Orani Bataan Philippines",
             "phone": "(+63) 998 856 1664",
             "website": "https://www.sinagtala.ph/ ",
-            "imageUrl": "https://images.squarespace-cdn.com/content/v1/5aebb100e17ba344445bafeb/1563784596292-IMQXKC15XUQ9CO2F1UYH/sinagtala+logo.gif?format=500w"
+            "imageUrl": "https://iloveronilo.github.io/wdd230/lesson-9/images/imageUrl/sinag.png"
         },
         {
             "name": "Las Casas Filipinas de Acuzar",
             "address": "Bagac Bataan Philippines",
             "phone": "(+63) 917 872 9361, (+63) 925 805 5232",
             "website": "https://lascasasfilipinas.com/",
-            "imageUrl": "https://944470.smushcdn.com/2526082/wp-content/uploads/2021/07/LCHC-logo.png?lossy=1&strip=1&webp=1"
+            "imageUrl": "https://iloveronilo.github.io/wdd230/lesson-9/images/imageUrl/las.png"
         },
         {
             "name": "AFAB",
