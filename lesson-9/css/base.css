@@ -26,12 +26,12 @@ header {
   align-items: center;
 }
 .fb {
-  width: 4vh;
+  width: 3vh;
   height: auto;
   padding: 0.3rem;
 }
 .insta {
-  width: 3.5vh;
+  width: 2.5vh;
   height: auto;
   padding: 0.3rem;
 }
@@ -148,7 +148,7 @@ ul {
   text-align: justify;
 }
 .logo {
-  width: 8vh;
+  width: 6vh;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 0 10px;
