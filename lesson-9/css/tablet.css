@@ -87,7 +87,7 @@
     box-shadow: 0 0 50px #333;
   }
   /* DIRECTORY PAGE */
-  .directory .datas {
+  .directory {
     grid-template-columns: 1fr 1fr;
   }
 }

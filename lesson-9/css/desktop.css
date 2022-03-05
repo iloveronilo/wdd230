@@ -87,9 +87,9 @@
     padding: 0.4rem 0;
   }
   /* DIRECTORY PAGE */
-  .directroy .datas {
+  /* .directroy {
     grid-template-columns: 1fr 1fr 1fr;
-  }
+  } */
   .datas img,
   .datas h2,
   .datas h3,
