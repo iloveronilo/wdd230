@@ -66,17 +66,23 @@
   .sectSpot {
     grid-column: 1/3;
   }
-  .sectImage {
-    padding: 1rem;
-  }
   .sectJoin {
     grid-column: 1/3;
+  }
+  .sectJoin p {
+    font-size: 1.3rem;
+    margin: 1rem;
   }
   .sectEvent {
     grid-column: 1/2;
   }
   .sectWeather {
     grid-column: 2/3;
+  }
+  #tempDegree,
+  .temperature p,
+  #weatherName {
+    font-size: 1.3rem;
   }
   /* LAZY LOADING IMAGES */
   .main_discover h1 {

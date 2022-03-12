@@ -1,0 +1,41 @@
+body {
+  font-family: "Kalam", cursive;
+  background-color: aqua;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 10px;
+  text-align: center;
+}
+
+header {
+  margin: auto;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border-radius: 10px;
+}
+
+img:hover {
+  box-shadow: 10px 10px 10px blue;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 32.5em) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 64em) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

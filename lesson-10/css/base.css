@@ -50,6 +50,7 @@ header {
   color: #fff;
   font-family: "Yuji Syuku", serif, Georgia, monospace;
   font-size: 0.6rem;
+  border: 1px solid gold;
 }
 
 /* FOOTER */
@@ -117,6 +118,10 @@ nav ul li a {
   background: linear-gradient(90deg, transparent, gold, transparent) top /
     var(--d, 0) 10px no-repeat;
   transition: 0.5s;
+}
+#active {
+  background: linear-gradient(90deg, transparent, gold, transparent);
+  color: black;
 }
 nav a:hover {
   --d: 75%;
@@ -206,10 +211,12 @@ figcaption {
   padding: 0.5rem;
   float: left;
 }
-
+.sectImage img:hover {
+  box-shadow: 0 0 20px #333;
+}
 .sectJoin {
   border: 1px solid gold;
-  background-color: #ddd;
+  background-color: whitesmoke;
   padding: 1rem;
 }
 #join {
@@ -234,7 +241,7 @@ figcaption {
 }
 .sectWeather {
   border: 1px solid gold;
-  background-color: #ddd;
+  background-color: whitesmoke;
   padding: 1rem;
 }
 #weatherName {
@@ -249,10 +256,19 @@ figcaption {
   align-items: center;
   justify-content: center;
 }
+#tempDegree,
+.temperature p {
+  font-size: 1rem;
+}
 #tempName {
   text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: "Cinzel", serif, Tahoma, sans-serif;
 }
-
+.windChill p {
+  font-size: 1rem;
+}
 /* FONT */
 h1 {
   font-family: "Cinzel Decorative", serif, "Times New Roman", Times, serif;
@@ -297,6 +313,7 @@ h3 {
   padding: 2rem;
   background-color: #065685;
   color: white;
+  border: 1px solid gold;
 }
 .main_discover picture img[data-src] {
   filter: blur(0.2em);
@@ -325,6 +342,7 @@ h3 {
 }
 hr {
   margin-bottom: 1rem;
+  border-color: gold;
 }
 
 /* THANK YOU PAGE */
@@ -337,6 +355,7 @@ hr {
   display: block;
   background-color: #ddd;
   padding: 4rem;
+  border: 1px solid gold;
 }
 .thanksMain #thanks h1 {
   margin-bottom: 1rem;
@@ -359,6 +378,7 @@ hr {
   background-color: #065685;
   color: white;
   padding: 2rem;
+  border: 1px solid gold;
 }
 form fieldset {
   margin: 2rem 0;
@@ -449,4 +469,5 @@ a {
   padding: 2rem;
   background-color: #065685;
   color: white;
+  border: 1px solid gold;
 }

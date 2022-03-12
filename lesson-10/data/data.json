@@ -1,0 +1,88 @@
+{
+    "companies": [
+        {
+            "name": "Bataan Government",
+            "address": "San Jose Balanga City Bataan Philippines",
+            "phone": "(047) 237 3488",
+            "website": "https://www.bataan.gov.ph/",
+            "imageUrl": "https://iloveronilo.github.io/wdd230/lesson-9/images/imageUrl/bat.png" 
+        },
+        {
+            "name": "Camaya Beach Resort",
+            "address": "Camaya Coast Mariveles, Bataan Philippines",
+            "phone": " (+63) 917 520 6192 / (+63) 917 543 0560",
+            "website": "https://www.camayacoast.com/",
+            "imageUrl": "https://iloveronilo.github.io/wdd230/lesson-9/images/imageUrl/cam.png"
+        },
+        {
+            "name": "Corregidor-Island",
+            "address": "Corregidor island",
+            "phone": "(+63) 977 643 4819",
+            "website": "https://corregidorisland.com.ph/",
+            "imageUrl": "https://iloveronilo.github.io/wdd230/lesson-9/images/imageUrl/corre.png"
+        },
+        {
+            "name": "Sinagtala",
+            "address": "Orani Bataan Philippines",
+            "phone": "(+63) 998 856 1664",
+            "website": "https://www.sinagtala.ph/ ",
+            "imageUrl": "https://iloveronilo.github.io/wdd230/lesson-9/images/imageUrl/sinag.png"
+        },
+        {
+            "name": "Las Casas Filipinas de Acuzar",
+            "address": "Bagac Bataan Philippines",
+            "phone": "(+63) 917 872 9361, (+63) 925 805 5232",
+            "website": "https://lascasasfilipinas.com/",
+            "imageUrl": "https://iloveronilo.github.io/wdd230/lesson-9/images/imageUrl/las.png"
+        },
+        {
+            "name": "AFAB",
+            "address": "Afab Mariveles, Bataan Philippines",
+            "phone": "(045) 935-4004",
+            "website": "https://afab.gov.ph",
+            "imageUrl": "https://iloveronilo.github.io/wdd230/lesson-9/images/imageUrl/afab.png"
+        },
+        {
+            "name": "Minenebea Mitsumi",
+            "address": "Afab Mariveles, Bataan Philippines",
+            "phone": " (047) 935 4011~6",
+            "website": "https://www.minebeamitsumi.com/english",
+            "imageUrl": "https://iloveronilo.github.io/wdd230/lesson-9/images/imageUrl/minebea.png"
+        },
+        {
+            "name": "Herma Ship Yard",
+            "address": "Baseco-Sisiman Hwy, Freeport Area of Bataan, Mariveles Bataan",
+            "phone": "(047) 935 4368",
+            "website": "https://www.hermashipyard.com.ph/",
+            "imageUrl": "https://iloveronilo.github.io/wdd230/lesson-9/images/imageUrl/herma.png"
+        },
+        {
+            "name": "http://www.dong-in.com/home/en/",
+            "address": "Baseco-Sisiman Hwy, Freeport Area of Bataan, Mariveles Bataan",
+            "phone": "(47) 935 6664",
+            "website": "http://www.dong-in.com/home/en/",
+            "imageUrl": "https://iloveronilo.github.io/wdd230/lesson-9/images/imageUrl/dong-in.png"
+        },
+        {
+            "name": "Anvaya Cove",
+            "address": "Morong Bataan Philippines",
+            "phone": "(+63) 917 862 8292",
+            "website": "http://www.anvayacove.com.ph/",
+            "imageUrl": "https://iloveronilo.github.io/wdd230/lesson-9/images/imageUrl/anvaya-cove.jpg"
+        },
+        {
+            "name": "Fiesta Home Communities",
+            "address": "Porto Mariveles, Bataan Philippines",
+            "phone": "(+63) 922 834 3782 (",
+            "website": "https://www.fiestacommunities.com/",
+            "imageUrl": "https://iloveronilo.github.io/wdd230/lesson-9/images/imageUrl/fiesta.png"
+        },
+        {
+            "name": "Mariveles Local Government",
+            "address": "Mariveles Bataan Philippines",
+            "phone": "(+63) 935 047 1757",
+            "website": "https://marivelesbataan.gov.ph",
+            "imageUrl": "https://iloveronilo.github.io/wdd230/lesson-9/images/imageUrl/mar.png"
+        }
+    ]
+}

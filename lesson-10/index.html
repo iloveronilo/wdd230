@@ -44,6 +44,7 @@
       <nav>
         <button id="navButton"><span>&#9776;</span><span>x</span></button>
         <ul id="primaryNav">
+          <li><a id="active" href="index.html">Home</a></li>
           <li><a href="discover.html">Discover</a></li>
           <li><a href="directory.html">Directory</a></li>
           <li><a href="join.html">Join</a></li>
@@ -102,6 +103,7 @@
 
       <div class="sectSpot">
         <picture class="sectImage">
+          <source srcset="images/mayorTablet.jpg" media="(min-width: 1024px)" />
           <source srcset="images/mayor1.jpg" media="(min-width: 721px)" />
           <img src="images/mayor-small.jpg" alt="The Mayor" />
         </picture>
@@ -120,6 +122,10 @@
         <br />
         <hr />
         <picture class="sectImage">
+          <source
+            srcset="images/armandoTablet.jpg"
+            media="(min-width: 1024px)"
+          />
           <source srcset="images/armando.jpg" media="(min-width: 721px)" />
           <img src="images/armando-small.jpg" alt="Resident" />
         </picture>
@@ -136,7 +142,7 @@
       </div>
 
       <div class="sectJoin">
-        <h3 id="join">Join</h3>
+        <h3 id="join">Join Now!</h3>
         <p>
           Explore how you can participate in the Enjoy Mariveles promotion and
           discover what we can offer you!
@@ -144,26 +150,34 @@
       </div>
 
       <div class="sectEvent">
-        <h3>Event</h3>
+        <h2>Event</h2>
+        <h3>Mobile Vaccination</h3>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book.
+          The inhabitants of Mariveles have benefited greatly from mobile
+          vaccination, which has reduced the town's COVID-19 impacts.
+        </p>
+        <hr />
+        <h3>Blood Donation Campaign</h3>
+        <p>
+          Blood donation has been a big reason why Mariveles' local hospital
+          hasn't run out of blood for their citizen's.
         </p>
       </div>
 
       <section class="sectWeather">
-        <h2 id="weatherName">Weather</h2>
+        <h2 id="weatherName">Weather Forecast</h2>
         <div class="temperature">
-          <img src="images/sunny_cloudy.png" alt="" />
-          <p id="tempDegree"></p>
+          <figure>
+            <img id="weatherIcon" src="" alt="weatherIcon" />
+          </figure>
+          <p><span id="tempDegree"></span>&deg;C</p>
         </div>
         <p id="tempName"></p>
         <hr />
         <div class="windChill">
           <p id="windSpeed"></p>
           <p id="windChill"></p>
+          <p id="feelsLike"></p>
         </div>
       </section>
     </main>
@@ -195,6 +209,6 @@
     <script defer src="js/date.js"></script>
     <script defer src="js/trans.js"></script>
     <script defer src="js/weather.js"></script>
-    <script defer src="lazyload/lazyload.js"></script>
+    <script defer src="js/lazyload.js"></script>
   </body>
 </html>
