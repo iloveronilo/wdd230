@@ -158,6 +158,9 @@ ul {
   border-radius: 10px;
   box-shadow: 0 0 10px;
 }
+.logo:hover {
+  box-shadow: 0 0 20px #333;
+}
 
 /* MAIN CONTENTS */
 main {
@@ -204,7 +207,7 @@ figcaption {
 }
 .sectSpot {
   border: 1px solid gold;
-  background-color: whitesmoke;
+  background-color: white;
   padding: 1rem;
 }
 .sectImage {
@@ -216,7 +219,7 @@ figcaption {
 }
 .sectJoin {
   border: 1px solid gold;
-  background-color: whitesmoke;
+  background-color: white;
   padding: 1rem;
 }
 #join {
@@ -236,13 +239,20 @@ figcaption {
 }
 .sectEvent {
   border: 1px solid gold;
-  background-color: whitesmoke;
-  padding: 1rem;
+  background-color: white;
+  padding: 0.5rem;
 }
 .sectWeather {
   border: 1px solid gold;
-  background-color: whitesmoke;
-  padding: 1rem;
+  background-color: white;
+}
+.sectWeather:hover {
+  box-shadow: 0 0 20px #333;
+  border-radius: 20px;
+}
+.sectEvent_section {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 #weatherName {
   text-align: center;
@@ -268,6 +278,7 @@ figcaption {
 }
 .windChill p {
   font-size: 1rem;
+  margin-bottom: 1rem;
 }
 /* FONT */
 h1 {
@@ -292,14 +303,13 @@ h3 {
 /* HOME BUTTON */
 #homeLink {
   text-decoration: none;
-  color: brown;
+  color: #065685;
   font-family: "Cinzel", serif, Tahoma, sans-serif;
   font-weight: bold;
-  padding-left: 2rem;
 }
-#home:hover {
-  background-color: #065685;
-  color: gold;
+#homeLink:hover {
+  color: brown;
+  text-decoration: underline;
 }
 
 /* LAZY LOADING IMAGES IN DISCOVER PAGE */
@@ -316,7 +326,7 @@ h3 {
   border: 1px solid gold;
 }
 .main_discover picture img[data-src] {
-  filter: blur(0.2em);
+  filter: blur(0.4em);
 }
 .main_discover picture img {
   margin-top: 1rem;
@@ -324,7 +334,7 @@ h3 {
   width: 100%;
   filter: blur(0em);
   transition: filter 0.5s;
-  border: 1px solid #ddd;
+  border: 1px solid gold;
 }
 .main_discover h3,
 .main_discover p {
@@ -343,6 +353,7 @@ h3 {
 hr {
   margin-bottom: 1rem;
   border-color: gold;
+  border-width: 2px;
 }
 
 /* THANK YOU PAGE */
@@ -470,4 +481,21 @@ a {
   background-color: #065685;
   color: white;
   border: 1px solid gold;
+}
+/* CONTACT PAGE */
+.contactMain h1 {
+  padding: 2rem;
+  background-color: #065685;
+  color: white;
+  border: 1px solid gold;
+}
+#contactInfo {
+  margin: 1rem;
+  text-align: center;
+}
+#contactInfo img {
+  border: 1px solid gold;
+}
+#contactInfo img:hover {
+  box-shadow: 0 0 50px #333;
 }
