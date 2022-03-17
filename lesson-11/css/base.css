@@ -50,7 +50,7 @@ header {
   color: #fff;
   font-family: "Yuji Syuku", serif, Georgia, monospace;
   font-size: 0.6rem;
-  border: 1px solid gold;
+  border: 5px double gold;
 }
 
 /* FOOTER */
@@ -206,13 +206,16 @@ figcaption {
   padding: 1rem;
 }
 .sectSpot {
-  border: 1px solid gold;
   background-color: white;
   padding: 1rem;
 }
 .sectImage {
   padding: 0.5rem;
   float: left;
+}
+.sectImage img,
+.sectHero figure img {
+  border: 1px solid gold;
 }
 .sectImage img:hover {
   box-shadow: 0 0 20px #333;
@@ -227,7 +230,7 @@ figcaption {
   margin: 0.5rem;
   background-color: gold;
   text-align: center;
-  border: 2px solid #065685;
+  border: 5px double #065685;
   border-radius: 10px;
   box-shadow: 0 0 8px #2a8ac3;
   font-family: "Cinzel", serif, Tahoma, sans-serif;
@@ -323,7 +326,7 @@ h3 {
   padding: 2rem;
   background-color: #065685;
   color: white;
-  border: 1px solid gold;
+  border: 4px double gold;
 }
 .main_discover picture img[data-src] {
   filter: blur(0.4em);
@@ -346,6 +349,7 @@ h3 {
   box-sizing: border-box;
   background-color: gold;
   padding: 1.5rem;
+  border: 3px double brown;
 }
 .visit p {
   font-weight: bold;
@@ -370,6 +374,7 @@ hr {
 }
 .thanksMain #thanks h1 {
   margin-bottom: 1rem;
+  border: 4px double gold;
 }
 #thanks p {
   text-align: center;
@@ -389,7 +394,7 @@ hr {
   background-color: #065685;
   color: white;
   padding: 2rem;
-  border: 1px solid gold;
+  border: 4px double gold;
 }
 form fieldset {
   margin: 2rem 0;
@@ -480,14 +485,14 @@ a {
   padding: 2rem;
   background-color: #065685;
   color: white;
-  border: 1px solid gold;
+  border: 4px double gold;
 }
 /* CONTACT PAGE */
 .contactMain h1 {
   padding: 2rem;
   background-color: #065685;
   color: white;
-  border: 1px solid gold;
+  border: 4px double gold;
 }
 #contactInfo {
   margin: 1rem;
