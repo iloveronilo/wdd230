@@ -41,11 +41,13 @@
     font-size: 1.7rem;
     font-weight: bold;
   }
-  h2,
+  h2 {
+    font-size: 1.5rem;
+  }
   h3,
   ul,
   p {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
   .logo {
     width: 15vh;
@@ -71,15 +73,23 @@
   .sectSpot {
     grid-column: 4/5;
     grid-row: 1/4;
-    display: grid;
-    justify-items: center;
   }
   .sectImage {
-    justify-self: center;
-    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: none;
+    margin-right: auto;
+  }
+  .sectSpot hr {
+    margin: 7rem 0 7rem 0;
+  }
+  .sectSpot h3 {
+    text-align: center;
+    margin-bottom: 2rem;
   }
   .sectSpot p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     padding: 0.5rem;
   }
   .sectJoin {

@@ -42,7 +42,7 @@
     font-size: 1.5rem;
   }
   h2 {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   p,
   h3 {
@@ -68,6 +68,9 @@
   }
   .sectSpot {
     grid-column: 1/3;
+  }
+  .sectImage {
+    margin-right: 1rem;
   }
   .sectJoin {
     grid-column: 1/3;
