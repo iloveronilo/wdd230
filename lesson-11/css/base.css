@@ -487,6 +487,7 @@ a {
   color: white;
   border: 4px double gold;
 }
+
 /* CONTACT PAGE */
 .contactMain h1 {
   padding: 2rem;
@@ -494,7 +495,8 @@ a {
   color: white;
   border: 4px double gold;
 }
-#contactInfo {
+#contactInfo,
+.contactMain h2 {
   margin: 1rem;
   text-align: center;
 }
@@ -503,4 +505,18 @@ a {
 }
 #contactInfo img:hover {
   box-shadow: 0 0 50px #333;
+}
+#contactVisit {
+  margin-top: 4rem;
+}
+
+/*GOOGLE MAP*/
+.mapouter {
+  position: relative;
+  text-align: center;
+  margin: 2rem auto 1rem auto;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
 }

@@ -116,7 +116,7 @@
   /* CONTACT PAGE */
   #contactInfo {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     justify-items: center;
     align-items: center;
     gap: 0.5rem;
